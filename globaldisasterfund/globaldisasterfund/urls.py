@@ -20,6 +20,7 @@ urlpatterns = [
     path('', include('funds.urls')),
     path('about/', include('funds.urls')),
     path('apply-for-funding/', include('funds.urls')),
+    path('climate-news/', include('funds.urls')),
     path('donate/', include('funds.urls')),
     path('resources/', include('funds.urls')),
     path('admin/', admin.site.urls),
