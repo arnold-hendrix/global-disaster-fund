@@ -1,1 +1,1 @@
-web: gunicorn globaldisasterfund.globaldisasterfund.wsgi --log-file -
+web: gunicorn globaldisasterfund.funds.wsgi:application --log-file -
